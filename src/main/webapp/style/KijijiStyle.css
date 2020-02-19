@@ -1,0 +1,71 @@
+/* 
+    Created on : Jan 13, 2020, 9:32:21 PM
+    Author     : Shariar (Shawn) Emami
+*/
+
+/*border: 3px solid #73AD21;*/
+
+.center-column {
+    display:block;
+    margin: auto;
+    width: 80%;
+}
+
+.item {
+    float:left;
+    display:block;
+    width:100%;
+    padding: 10px;
+}
+
+.image {
+    float:left;
+    display:block;
+    padding: 10px;
+    min-width: 250px;
+    min-height: 200px;
+    max-width: 250px;
+    max-height: 200px;
+}
+
+.details {
+    display:block;
+    overflow: auto;
+    padding: 0 0 0 20px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    overflow: auto;
+    padding: 0 0 10px 5px;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    overflow: auto;
+    padding: 0 0 10px 5px;
+}
+
+.date {
+    vertical-align:middle;
+    display:block;
+    float:left;
+    overflow: auto;
+    padding: 0 5px 10px 5px;
+}
+
+.location {
+    vertical-align:middle;
+    display:block;
+    overflow: auto;
+    padding: 0 0 10px 20px;
+}
+
+.description {
+    vertical-align:middle;
+    display:block;
+    overflow: auto;
+    padding: 0 0 10px 5px;
+}
